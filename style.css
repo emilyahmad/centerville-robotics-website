@@ -1,0 +1,153 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, p, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: normal;
+}
+
+/* Section One */
+
+.section1 {
+    min-height: 200vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(180deg, black, #624E18);
+}
+
+.section1 #logo-header {
+    width: 10%;
+    height: auto;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+.section1 .header-options {
+    font-size: 16px;
+
+    position: absolute;
+    top: 2.5%;
+    right: 5%;
+    
+    display: flex;
+    align-items: center;
+    gap: 60px;   
+}
+
+/* Section One */
+
+.main-content #title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.main-content p {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+}
+
+/* Image Slideshow */
+.slideshow img {
+    width: 18%;
+    height: auto;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+
+.slide-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: absolute;
+    top: 65%;
+}
+
+.nav {
+    display: flex;
+    gap: 7px;
+    margin-left: 50%;
+    margin-top: 33.5%;
+    transform: translate(-90.5%, 0%);
+}
+
+.nav img {
+    width: 4%;
+    height: auto;
+    top: 50%;
+}
+
+/* Intro Section */
+.intro-section {
+    background-color: black;
+    width: 90%;
+    height: auto;
+    border-radius: 47px;
+    position: absolute;
+    left: 50%;
+    margin-top: 20px;
+    transform: translate(-50%);
+    justify-content: center;
+}
+
+.intro-section h1 {
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 3.5%;
+    margin-top: 2.5%;
+}
+
+.intro-section h1 {
+    font-weight: bold;
+    font-size: 38px;
+    margin-left: 3.5%;
+    margin-top: 2.5%;
+}
+
+.intro-section h2 {
+    font-size: 30px;
+    margin-left: 3.5%;
+    margin-top: -.5%;
+    margin-right: 42%;
+    line-height: 1.25;
+}
+
+.intro-section #robot {
+    position: absolute;
+    width: 40%;
+    top: -33%;
+    left: 56%;
+    transform: rotate(3deg);
+}
+
+iframe {
+    border-radius: 30px;
+    margin-left: 3.5%;
+    border-color: rgba(255, 217, 0, 0.481);
+    border-width: 5px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.intro-section h3 {
+    font-size: 30px;
+    margin-top: -25%;
+    margin-left: 45%;
+    margin-right: 3.5%;
+    line-height: 1.25;
+    margin-top: -310px;
+}
